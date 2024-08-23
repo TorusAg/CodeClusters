@@ -1,0 +1,45 @@
+.dashboard {
+    display: grid;
+    grid-template-areas: 
+        "header header header"
+        "status schedule consultancy"
+        "status schedule chat"
+        "status schedule video";
+    gap: 20px;
+    padding: 20px;
+}
+
+.patient-status {
+    grid-area: status;
+    border: 1px solid #000;
+    padding: 10px;
+}
+
+.schedule {
+    grid-area: schedule;
+    border: 1px solid #000;
+    padding: 10px;
+}
+
+.consultancy {
+    grid-area: consultancy;
+    border: 1px solid #000;
+    padding: 10px;
+}
+
+#chat-container {
+    grid-area: chat;
+    border: 1px solid #000;
+    padding: 10px;
+}
+
+.video {
+    grid-area: video;
+    border: 1px solid #000;
+    padding: 10px;
+}
+
+#remoteVideo {
+    width: 100%;
+    height: auto;
+}
